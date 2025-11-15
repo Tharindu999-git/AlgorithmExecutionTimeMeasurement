@@ -25,4 +25,43 @@ This Java‑based project measures and compares the execution time of different 
 4. Print the results in a clear table format so you can compare how time scales with input size.  
 
 _Example Output Format_:  
+Algorithm: Bubble Sort
+Input Size | Time (ns)
+100 | 152000
+500 | 780000
+1000 | 3120000
+
+
+---
+
+## 🛠️ Technologies & Tools  
+
+- Java (JDK 8 or higher)  
+- Git & GitHub for version control and collaboration  
+- Any Java IDE or editor (IntelliJ, VS Code, NetBeans, etc.)
+
+---
+
+## 📁 Project Structure  
+
+
+
+### File Descriptions  
+- **ArrayGenerator.java** — Utility class to generate random integer arrays of a given size.  
+- **LinearSearch.java** — Implements Linear Search and measures the search time.  
+- **BinarySearchAlgo.java** — Sorts the array then performs Binary Search; measures time.  
+- **BubbleSort.java** — Implements Bubble Sort and records how long the sorting takes.  
+- **QuickSort.java** — Implements Quick Sort (partition + recursion) and measures execution time.  
+- **Main.java** — Runs all algorithms in one program, printing tables of results for each size.  
+
+---
+
+## ▶️ How to Run the Program  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Tharindu999-git/AlgorithmExecutionTimeMeasurement.git
+
+
+
 
